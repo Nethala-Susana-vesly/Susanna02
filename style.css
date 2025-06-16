@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-style: italic;
+  background: linear-gradient(-45deg, rgb(177, 191, 245), rgb(248, 248, 248), rgb(177, 191, 245));
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 200px;
+  
+}
+.box{
+  display: flex;
+  width:600px;
+  border: 3px solid black;
+  border-radius: 10px;
+   background: linear-gradient(-45deg, rgb(128, 150, 237), rgb(248, 248, 248), rgb(128, 150, 237));
+  padding: 10px;
+  box-shadow: 4px 4px 10px rgb(139, 137, 137);
+  margin-top: -150px;
+}
+.box .right{
+  width:300px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.box .left{
+  width:300px;
+  background-image: url('bg.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain; 
+  display: block;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.todo {
+  width:600px;
+  max-width: 500px;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 3px 3px 10px rgb(138, 134, 134);
+  margin-bottom: 200px;
+  background: linear-gradient(-45deg, rgb(177, 191, 245), rgb(248, 248, 248), rgb(177, 191, 245));
+}
+
+h4 {
+  text-align: left;
+}
+h1 {
+  text-align: left;
+}
+.h1{
+  margin-top: 10px;
+  font-size:40px
+}
+form label {
+  display: block;
+  margin: 10px 0 5px 5px;
+  border-radius: 50px;
+}
+
+form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #999;
+  border-radius: 50px;
+}
+
+.button {
+  display: block;
+  margin-top:10px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 140px;
+   background: linear-gradient(-45deg, rgb(177, 191, 245), rgb(248, 248, 248), rgb(177, 191, 245));
+}
+
+.Add {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: rgba(203, 215, 236, 0.307);
+  border: 1px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.message {
+  text-align: center;
+
+}
+
+.data {
+  width: 370px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-right: 20px;
+}
+
+ul#todoList {
+  padding: 5px 18px 5px 9px;
+  margin-top: 20px;
+}
+
+ul#todoList li {
+  padding: 10px 18px 7px 9px;
+  margin: 5px;
+  border-radius:2px;
+  position: relative;
+  border-bottom: 2px solid black;
+}
+
+ul#todoList li button {
+  position: absolute;
+  right: 10px;
+  bottom:1px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  background-color: none;
+  border-radius: 2px;
+}
+
